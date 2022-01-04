@@ -1,20 +1,16 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-// Import components here
-
-import Home from './Components/Home/home';
+import Background from './Images/marble.jpg';
 
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Route path='/' exact component={Home}/>
-      </Router>
+  return(
+    <div className="Home">
+        <img className="background" src={Background}/>
     </div>
-  );
+)
 }
 
 export default App;
