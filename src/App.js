@@ -9,6 +9,10 @@ function App() {
   return(
     <div className="Home">
         <img className="background" src={Background}/>
+
+        <div className="glass">
+          <h2>Hello World</h2>
+        </div>
     </div>
 )
 }

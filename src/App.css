@@ -1,4 +1,20 @@
 .background{
+  position: absolute;
   height: 100vh;
   width: 100vw;
+  z-index: -1;
+}
+
+.glass{
+  display: inline-block;
+  background: rgba(255,255,255, 0.2);
+  margin: 150px;
+  padding: 3em;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
