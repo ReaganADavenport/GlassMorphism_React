@@ -16,11 +16,27 @@ function App() {
             <h1>Hi I'm a header</h1>
           </div>
 
-          <div className="glass">
-            <h2>Hello World</h2>
-            <p>I am practicing coding glassmorphism</p>
+          <div className="cupboard">
+
+            <div className="glass_1">
+              <h2>Hello World</h2>
+              <p>I am practicing coding glassmorphism</p>
+            </div>
+
+            <div className="glass_2">
+              <h2>Hello World</h2>
+              <p>I am practicing coding glassmorphism</p>
+            </div>
+
+            <div className="glass_3">
+              <h2>Hello World</h2>
+              <p>I am practicing coding glassmorphism</p>
+            </div>
+
+
           </div>
           
+
         </div>
         
 

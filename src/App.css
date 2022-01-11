@@ -29,10 +29,18 @@
   height: 100vh;
 }
 
-.glass{
+.cupboard{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.glass_1, .glass_2, .glass_3{
   background: rgba(255,255,255, 0.2);
-  margin: 50px;
-  padding: 3em;
+  margin: 25px;
+  padding: 1em;
   border-radius: 15px;
   justify-content: center;
   align-content: center;
