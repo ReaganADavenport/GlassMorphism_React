@@ -23,16 +23,6 @@ function App() {
               <p>I am practicing coding glassmorphism</p>
             </div>
 
-            <div className="glass_2">
-              <h2>Hello World</h2>
-              <p>I am practicing coding glassmorphism</p>
-            </div>
-
-            <div className="glass_3">
-              <h2>Hello World</h2>
-              <p>I am practicing coding glassmorphism</p>
-            </div>
-
 
           </div>
           
